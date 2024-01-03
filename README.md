@@ -1,4 +1,4 @@
-//Creating Database
+<!---//Creating Database
 CREATE TABLE `tblsales` (
   `SalesId` int(11) NOT NULL,
   `TRANSDATE` date NOT NULL,
@@ -15,7 +15,7 @@ INSERT INTO `tblsales` (`SalesId`, `TRANSDATE`, `Product`, `TotalSales`) VALUES
 (2, '2018-02-28', 'Surf Powder', 800),
 (3, '2018-03-31', 'Surf Powder', 5052),
 (4, '2019-04-30', 'Surf Powder', 8030),
-(5, '2019-05-31', 'Surf Powder', 10000);
+(5, '2019-05-31', 'Surf Powder', 10000);--->
 
 <?php
 $con  = mysqli_connect("localhost","root","","salesdb");
